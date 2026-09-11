@@ -40,8 +40,8 @@ const clues=[
 {question:"¿Cuál es el sabor de la cuesta?",answers:["donut","donuts","tarta de donuts"],digit:SECRET_CODE[1]},
 {question:"¿Cuál es el sabor de la cumbre?",answers:["mochi","mochis","anko"],digit:SECRET_CODE[2]},
 {question:"¿en que restaurante conoció Laura al amigo de willy?",answers:["restaurante Baobab","baobab","Baobab"],digit:SECRET_CODE[3]},
-{question:"Esta pista todavía no ha sido configurada.",answers:[],digit:SECRET_CODE[4]},
-{question:"Esta pista todavía no ha sido configurada.",answers:[],digit:SECRET_CODE[5]}];
+{question:"¿Cuál fue el primer disfraz que hicieron Willy, Javi y Pablo?",answers:["de margarita","margarita"],digit:SECRET_CODE[4]},
+{question:"¿Quién derrotó a Cris en Pamplona (excluyendo el alcohol)?",answers:["willy","guillermo","el papel","papel"],digit:SECRET_CODE[5]}];
 let currentClue=null;
 function confirmName(){const n=gateName.value.trim();if(!n){nameError.textContent="El nombre de usuario es obligatorio.";gateName.focus();return}userName.value=n;nameGate.style.display="none"}
 gateName.addEventListener("keydown",e=>{if(e.key==="Enter")confirmName()});
